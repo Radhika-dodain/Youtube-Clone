@@ -1,0 +1,33 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:55px;
+    background-color: white;
+    width: 85px;
+    z-index: 101;
+    padding-top: 5px;
+}
+
+.sb{
+    height: 108px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.sb:hover{
+    background-color: rgb(235,235,235);
+    cursor: pointer;
+}
+
+.sb img {
+height: 32px;
+}
+
+.sb div{
+    font-family: Roboto,Arial;
+    font-size:12px;
+    
+}
